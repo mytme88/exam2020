@@ -1,0 +1,224 @@
+/*------------------------------------Styles for the hero image-------------------------*/
+html {
+  background: url(../images/bacground.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*-----------------------------------------Body Styles-------------------------------------*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+  margin: 25px;
+}
+
+.container h1 {
+  font-size: 34px;
+}
+.text-box2 {
+  margin-top: 50px;
+  font-size: 24px;
+}
+
+.text-box {
+  margin-top: 50px;
+  font-size: 24px;
+  width: 60%;
+}
+
+.text-box a {
+  font-size: 24px;
+  font-family: book;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+.text-box p {
+  padding: 10px;
+}
+
+.quote {
+  display: flex;
+  margin-top: 200px;
+}
+
+blockquote {
+  color: white;
+  font-size: 22px;
+  width: 65%;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+blockquote p::before,
+blockquote p::after {
+  content: "“";
+  font-size: 40px;
+  opacity: 0.5;
+}
+
+blockquote p::after {
+  content: "”";
+}
+
+blockquote cite {
+  font-size: 20px;
+  font-family: space;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+  margin: auto auto;
+  flex-wrap: wrap;
+  background-color: gold;
+}
+
+.img-box1 {
+  display: flex;
+  background-color: aqua;
+}
+.img-box2 {
+  display: flex;
+  background-color: blueviolet;
+}
+
+.img-box3 {
+  display: flex;
+  background-color: chartreuse;
+}
+
+/*--------------------------------Solar------------------------------*/
+
+.solar-box {
+  display: flex;
+}
+
+.solar-box p {
+  display: none;
+  font-size: 20px;
+  font-family: book;
+  padding: 10px;
+}
+
+.solar-box a {
+  font-size: 20px;
+  font-family: book;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+iframe {
+  border: 2px solid #0f5c6e;
+  width: 90vw;
+  height: 65vh;
+}
+
+/*--------------------------------Daily------------------------------*/
+.daily-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.daily-image-container img {
+  width: auto;
+  height: auto;
+}
+
+.daily-image-container h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.daily-image-container p {
+  width: 65%;
+  margin-bottom: 50px;
+  line-height: 1.2;
+  font-size: 19px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/*--------------------------------Footer------------------------------*/
+footer {
+  flex-shrink: 0;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  align-items: center;
+  margin-top: 50px;
+  margin: auto auto;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.footer-container div {
+  margin: 25px;
+}
+
+.fbox1 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.fbox1 ul {
+  text-align: center;
+}
+.fbox1 ul li {
+  list-style: none;
+  padding: 5px;
+  text-align: left;
+  cursor: pointer;
+  font-family: book;
+}
+
+.fbox1 ul li a {
+  font-family: book;
+  text-decoration: none;
+}
+.fbox1 ul li a:hover {
+  text-decoration: underline;
+}
+.fbox1 ul li:first-child {
+  font-family: space;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.fbox2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fbox2 i {
+  padding: 10px;
+}
+.fbox2 p {
+  font-family: space;
+  padding: 10px;
+}
+.fbox2 i:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.fbox3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-family: space;
+}

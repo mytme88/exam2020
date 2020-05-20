@@ -1,0 +1,75 @@
+/* Typography imported from Google Fonts 
+Changeling Neo
+*/
+
+/* fonts */
+@font-face {
+  font-family: book;
+  src: url(../fonts/bookman-old-style-regular.ttf);
+  src: url(../fonts/bookman-old-style-regular.woff);
+}
+
+@font-face {
+  font-family: space;
+  src: url(../fonts/space.ttf);
+  src: url(../fonts/space.woff);
+}
+
+h1,
+h2,
+h3,
+h4,
+a {
+  font-family: changeling-neo, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  color: white;
+}
+
+p,
+label,
+option {
+  font-family: book;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+}
+
+h6,
+h5,
+.fbox1,
+.fbox2,
+.fbox4 {
+  font-family: space;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: white;
+}
+
+/*-------------------------------Generic styles-------------------------*/
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  margin: auto;
+  margin-top: 150px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

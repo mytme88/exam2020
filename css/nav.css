@@ -1,0 +1,97 @@
+/*--------------------------------top navigation---------------------------*/
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  margin-top: 60px;
+}
+
+.navbar a {
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  padding: 0px 20px;
+  white-space: nowrap;
+  color: lavender;
+}
+
+.navbar .current {
+  text-decoration: underline;
+}
+
+.navbar a:hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+
+.btn {
+  display: none;
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: white;
+}
+
+/*------------------------------------------mobile navigation-----------------------------------*/
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar .icon-btn {
+  display: flex;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  transition: 0.3s;
+  padding: 15px 20px;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: white;
+  text-align: right;
+}
+
+.sidebar a:hover,
+.sidebar .icon-btn:hover {
+  color: #f1f1f1;
+}

@@ -117,4 +117,7 @@
   .solar-box p {
     display: inline;
   }
+  .quote {
+    width: 60vw;
+  }
 }
